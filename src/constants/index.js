@@ -233,7 +233,7 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Singalist.txt",
+          name: "Signalist.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
@@ -427,7 +427,7 @@ const ABOUT_LOCATION = {
       subtitle: "Meet the Developer Behind the Code",
       image: "/images/ayush.jpg",
       description: [
-        "Hey! I’m Ayush👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
+        "Hey! I'mm Ayush👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
         "I specialize in JavaScript, React, and Next.js, creating high-performance interfaces that feel polished and responsive.",
         "I prioritize clean design, thoughtful user experience, and maintainable code.",
         "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
