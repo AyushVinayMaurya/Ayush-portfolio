@@ -415,7 +415,7 @@ const ABOUT_LOCATION = {
       kind: "file",
       fileType: "img",
       position: "top-52 left-80",
-      imageUrl: "/images/ayush-3.jpeg",
+      imageUrl: "/images/ayush-3.jpg",
     },
     {
       id: 4,
