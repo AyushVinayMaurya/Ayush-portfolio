@@ -66,12 +66,12 @@ const dockApps = [
     icon: "terminal.png",
     canOpen: true,
   },
-  {
-    id: "trash",
-    name: "Archive", // was "Trash"
-    icon: "trash.png",
-    canOpen: false,
-  },
+  // {
+  //   id: "trash",
+  //   name: "Archive", // was "Trash"
+  //   icon: "trash.png",
+  //   canOpen: false,
+  // },
 ];
 
 const blogPosts = [
@@ -81,21 +81,21 @@ const blogPosts = [
     title:
       "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
     image: "/images/blog1.png",
-    link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+    link: "https://",
   },
   {
     id: 2,
     date: "Aug 28, 2025",
     title: "The Ultimate Guide to Mastering Three.js for 3D Development",
     image: "/images/blog2.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+    link: "https://",
   },
   {
     id: 3,
     date: "Aug 15, 2025",
     title: "The Ultimate Guide to Mastering GSAP Animations",
     image: "/images/blog3.png",
-    link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+    link: "https://",
   },
 ];
 
@@ -225,7 +225,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Stock tracker Web Application that helps to track stocks",
+      name: "Stock tracker",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder

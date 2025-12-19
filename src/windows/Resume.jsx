@@ -6,7 +6,10 @@ import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/Page/AnnotationLayer.css";
 import "react-pdf/dist/Page/TextLayer.css";
 
-pdfjs.GlobalWorkerOptions.workerSrc = `https://unpkg/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
+pdfjs.GlobalWorkerOptions.workerSrc = new URL(
+  "pdfjs-dist/build/pdf.worker.min.mjs",
+  import.meta.url
+).toString();
 
 const Resume = () => {
   return (
@@ -15,7 +18,7 @@ const Resume = () => {
         <WindowControls target="resume" />
         <h2>Resume.pdf</h2>
         <a
-          href="files/resume.pdf"
+          href="/files/resume.pdf"
           download
           className="cursor-pointer"
           title="Download resume"
@@ -23,7 +26,10 @@ const Resume = () => {
           <Download className="icon" />
         </a>
       </div>
-      <Document file="files/resume.pdf">
+      <Document
+        file="/files/resume.pdf"
+        onLoadError={(error) => console.error("PDF load error:", error)}
+      >
         <Page
           pageNumber={1}
           scale={0.8}
