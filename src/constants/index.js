@@ -42,18 +42,18 @@ const dockApps = [
     icon: "finder.png",
     canOpen: true,
   },
-  {
-    id: "safari",
-    name: "Articles", // was "Safari"
-    icon: "safari.png",
-    canOpen: true,
-  },
-  {
-    id: "photos",
-    name: "Gallery", // was "Photos"
-    icon: "photos.png",
-    canOpen: true,
-  },
+  // {
+  //   id: "safari",
+  //   name: "Articles", // was "Safari"
+  //   icon: "safari.png",
+  //   canOpen: true,
+  // },
+  // {
+  //   id: "photos",
+  //   name: "Gallery", // was "Photos"
+  //   icon: "photos.png",
+  //   canOpen: true,
+  //},
   {
     id: "contact",
     name: "Contact", // or "Get in touch"
